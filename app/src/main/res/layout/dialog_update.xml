@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:background="#fff"
+    android:padding="12dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <pl.droidsonroids.gif.GifImageView
+        android:layout_width="150dp"
+        android:layout_gravity="center"
+        android:layout_height="75dp"
+        android:src="@drawable/loader"/>
+    <TextView
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update available! Download the app to proceed"/>
+        <Button
+            android:id="@+id/dialog_update_button_update"
+            android:layout_margin="6dp"
+            android:background="#FB1C1C"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Update"/>
+        <Button
+            android:id="@+id/dialog_update_button_exit"
+            android:layout_margin="6dp"
+            android:background="#eee"
+            android:textColor="#FB1C1C"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="EXIT"/>
+</LinearLayout>
