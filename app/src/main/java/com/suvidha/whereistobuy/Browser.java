@@ -87,7 +87,7 @@ public class Browser extends WebViewClient {
         {
                 return false;
         }
-        if(Url.equals("https://play.google.com/store/apps/details?id=com.suvidha.whereistobuy") || Url.equals("https://solutiontrick.tk/how-to-register-as-a-shopkeeper/") || Url.contains("facebook") || Url.contains("instagram")) {
+        if(Url.equals("https://play.google.com/store/apps/details?id=com.suvidha.whereistobuy") || Url.equals("https://solutiontrick.tk/how-to-register-as-a-shopkeeper/") || Url.contains("facebook") || Url.contains("instagram") || Url.contains("youtube") || Url.contains("linkedin") || Url.contains("youtu"))  {
             Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse(Url));
             view.getContext().startActivity(intent);
             return true;
